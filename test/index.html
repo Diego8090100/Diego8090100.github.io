@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dungeons & Dragons</h1>
+        <label for="diceType">Choose your dice:</label>
+        <select id="diceType">
+            <option value="6">D6</option>
+            <option value="10">D10</option>
+            <option value="20">D20</option>
+            <option value="100">D100</option>
+        </select>
+        <button class="button" id="rollButton">
+            Get in touch
+            <div class="hoverEffect">
+                <div></div>
+            </div>
+        </button>
+        <div class="result">
+            <h2>Result: <span id="result">-</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
